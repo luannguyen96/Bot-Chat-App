@@ -1,0 +1,22 @@
+﻿Build started 02-Jun-16 1:06:57 PM.
+     1>Project "D:\Mạng máy tính\Socket\New folder\1_1461350_1461458\Socket\Socket\client\client\client\client.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\client.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt client.cpp
+         client.cpp
+     1>d:\mạng máy tính\socket\new folder\1_1461350_1461458\socket\socket\client\client\client\client.cpp(33): warning C4566: character represented by universal-character-name '\u1EA1' cannot be represented in the current code page (1252)
+     1>d:\mạng máy tính\socket\new folder\1_1461350_1461458\socket\socket\client\client\client\client.cpp(34): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\mạng máy tính\socket\new folder\1_1461350_1461458\socket\socket\client\client\client\client.cpp(47): warning C4566: character represented by universal-character-name '\u1EA1' cannot be represented in the current code page (1252)
+     1>d:\mạng máy tính\socket\new folder\1_1461350_1461458\socket\socket\client\client\client\client.cpp(350): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(254) : see declaration of 'gets'
+     1>d:\mạng máy tính\socket\new folder\1_1461350_1461458\socket\socket\client\client\client\client.cpp(340): warning C4101: 'sizeMesg' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Mạng máy tính\Socket\New folder\1_1461350_1461458\Socket\Socket\client\client\Debug\client.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\Mạng máy tính\Socket\New folder\1_1461350_1461458\Socket\Socket\client\client\Debug\client.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Mạng máy tính\Socket\New folder\1_1461350_1461458\Socket\Socket\client\client\Debug\client.lib" /MACHINE:X86 Debug\client.res
+         Debug\client.obj
+         Debug\stdafx.obj
+         client.vcxproj -> D:\Mạng máy tính\Socket\New folder\1_1461350_1461458\Socket\Socket\client\client\Debug\client.exe
+     1>Done Building Project "D:\Mạng máy tính\Socket\New folder\1_1461350_1461458\Socket\Socket\client\client\client\client.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.40

@@ -1,0 +1,27 @@
+5
+sieu nhan
+SN001
+10
+sieu nhan do do choi
+50000
+macbook
+MB002
+100
+apple laptop
+10000000
+iphone 6s
+IP003
+100
+apple smartphone
+6000000
+htc one m9
+DT004
+100
+htc smartphone
+9000000
+may tinh bang
+TB005
+50
+samsung tablet
+5000000
+ 

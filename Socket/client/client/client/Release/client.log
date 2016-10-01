@@ -1,0 +1,22 @@
+﻿Build started 02-Jun-16 1:09:21 PM.
+     1>Project "D:\Mạng máy tính\Socket\New folder\1_1461350_1461458\Socket\Socket\client\client\client\client.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\client.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt client.cpp
+         client.cpp
+     1>client.cpp(34): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>client.cpp(350): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(254) : see declaration of 'gets'
+     1>client.cpp(340): warning C4101: 'sizeMesg' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Mạng máy tính\Socket\New folder\1_1461350_1461458\Socket\Socket\client\client\Release\client.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\Mạng máy tính\Socket\New folder\1_1461350_1461458\Socket\Socket\client\client\Release\client.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Mạng máy tính\Socket\New folder\1_1461350_1461458\Socket\Socket\client\client\Release\client.lib" /MACHINE:X86 /SAFESEH Release\client.res
+         Release\client.obj
+         Release\stdafx.obj
+         Generating code
+         Finished generating code
+         client.vcxproj -> D:\Mạng máy tính\Socket\New folder\1_1461350_1461458\Socket\Socket\client\client\Release\client.exe
+     1>Done Building Project "D:\Mạng máy tính\Socket\New folder\1_1461350_1461458\Socket\Socket\client\client\client\client.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.79
